@@ -11,7 +11,7 @@ The goal of this project is to understand the spatial patterns of bicycle theft 
 ### Project Link
 
 You can view the website for this project at:  
-[Project Website](https://yourusername.github.io/JSC370-finalproject)
+[Project Website](https://guzzim2022.github.io/jsc370-guzzi-finalproject/)
 
 
 ## Project Description
