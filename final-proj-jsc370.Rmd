@@ -1,10 +1,9 @@
 ---
 title: "JSC370 Final Project"
-date: "April 30, 2025"
 author: "Matteo Guzzi"
+date: "April 30, 2025"
 output:
-  html_document:
-    df_print: paged
+  pdf_document: default
 ---
 
 ## Introduction
