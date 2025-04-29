@@ -1,4 +1,4 @@
-# JSC370 Final Project Website
+# JSC370 Final Project
 
 Final Project for JSC370 (Winter 2025)
 
