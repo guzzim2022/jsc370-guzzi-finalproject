@@ -1,0 +1,40 @@
+---
+title: "Additional Figures"
+author: "Matteo Guzzi"
+output:
+  html_document:
+    theme: cosmo
+    toc: true
+    toc_float: true
+---
+
+
+## More Interactive Visualizations
+```{r source file, echo = FALSE, message=FALSE, warning=FALSE, include = FALSE}
+library(plotly)
+library(knitr)
+
+knitr::purl("final-proj-jsc370.Rmd", output = "analysis_script.R", documentation = 0, quiet = TRUE) # convert rmd to R
+source("analysis_script.R")
+
+```
+
+
+### Bike Shops vs. Thefts by Neighborhood
+```{r plot 3, echo=FALSE}
+# From 'spatial maps joined data' chunk
+p <- ggplot(combined_data, aes(x = shops_per_1000, y = theft_rate_per_1000, size = pop2016, text = neighborhood)) +
+  geom_point(alpha = 0.7, color = "steelblue") +
+  labs(x = "Bike Shops per 1000", y = "Thefts per 1000")
+ggplotly(p, tooltip = "text")
+```
+
+
+### Distribution of Bike Theft Costs (Log Scale)
+```{r plot 4, echo=FALSE}
+p2 <- ggplot(thefts_sf_log, aes(x = log_cost)) +
+  geom_histogram(bins = 30, fill = "red", color = "black") +
+  labs(x = "Log(Bike Cost + 1)", y = "Frequency")
+ggplotly(p2)
+```
+

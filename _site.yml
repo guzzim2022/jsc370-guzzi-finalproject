@@ -1,7 +1,15 @@
----
-title: "JSC370 Final Project"
+name: "JSC370 Final Project"
 author: "Matteo Guzzi"
-output: 
+navbar:
+  title: "JSC370 Project"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about.html
+    - text: "Additional Figures"
+      href: figures.html
+output:
   html_document:
     theme: cosmo
     toc: true
@@ -9,4 +17,3 @@ output:
     include:
       after_body: footer.html
     css: styles.css
----

@@ -1,0 +1,23 @@
+---
+title: "About Me"
+author: "Matteo Guzzi"
+output:
+  html_document:
+    theme: cosmo
+    toc: true
+    toc_float: true
+---
+
+## About Me
+
+I'm Matteo Guzzi, currently pursuing an Honours Bachelor of Science at the University of Toronto, specializing in Data Science with a minor in Statistics. My academic journey is driven by a passion for applying data and machine learning to solve real-world problems—particularly in areas where technology intersects with public policy, urban planning, and financial risk assessment.
+
+Professionally, I’ve worked as a Risk Assurance Analyst at PwC Canada, where I led audits for public sector control systems and designed compliance tests for private sector clients. This role deepened my understanding of regulatory frameworks and challenged me to devise creative, data-informed solutions. During my time at PwC, I also completed advanced training in AI, cybersecurity, and analytics. Prior to that, I served as Vice President of RAIL Ontario Inc., where I oversaw financial planning, implemented database integrations, and built visualization tools with Tableau to support executive decision-making.
+
+I’ve developed strong technical fluency across a range of tools and languages, including Python, R, SQL, MATLAB, and MLIR/LLVM for compiler-level ML optimization. My work includes deep learning, data cleaning, risk modeling, and visualization. I'm also fluent in English, Italian, and French, with working proficiency in Russian and Spanish—skills that help me collaborate across diverse teams and contexts.
+
+My academic and extracurricular projects reflect a deep interest in urban analytics, public sentiment, and AI systems. These include spatial analyses of Toronto crime data, sentiment mining of civic complaints, and predictive modeling of urban health trends. I've also built transformer-based machine translation systems, deception detection models from speech, and compiler tools to optimize machine learning across platforms.
+
+Beyond academics and work, I’m active in a wide range of communities. I serve as a mentor and event coordinator at St. Michael’s College, and I’m a Rover Scout with Scouts Canada. I’ve also taught Italian, led student orientations, and participated in university governance roles. I play cello with the U of T Philharmonic Orchestra and sing in the Hart House Choir. My athletic interests include varsity underwater hockey, squash, skiing, and rowing.
+
+Thank you for visiting my page. If you're interested in my academic work, you can view my final project report [here](final-proj-jsc370.pdf).
