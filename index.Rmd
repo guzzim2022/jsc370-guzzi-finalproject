@@ -1,0 +1,13 @@
+---
+title: "JSC370 Final Project"
+author: "Matteo Guzzi"
+output:
+  html_document:
+    theme: cosmo
+    toc: true
+    toc_float: true
+---
+
+# Welcome to my JSC370 Final Project
+
+You can view my full report with figures and analysis [here](final-proj-jsc370.html).

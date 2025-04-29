@@ -1,0 +1,12 @@
+---
+title: "JSC370 Final Project"
+author: "Matteo Guzzi"
+output: 
+  html_document:
+    theme: cosmo
+    toc: true
+    toc_float: true
+    include:
+      after_body: footer.html
+    css: styles.css
+---
