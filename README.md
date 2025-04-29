@@ -14,29 +14,6 @@ You can view the website for this project at:
 [Project Website](https://guzzim2022.github.io/jsc370-guzzi-finalproject/)
 
 
-## Project Description
-
-### Problem Statement
-
-Toronto, being one of Canada's largest cities, faces challenges in urban mobility, safety, and infrastructural planning. Bicycle theft has become a significant issue, affecting cyclists across the city. As cycling continues to grow in popularity, it is crucial to understand the factors driving bicycle theft to help improve safety for cyclists.
-
-This project investigates how socio-economic indicators and the presence of bicycle shops influence bicycle theft rates. The goal is to answer the following research questions:
-
-1. What socio-economic indicators are present in neighborhoods with high bicycle theft rates?
-2. How does the presence of bicycle shops impact bicycle theft?
-
-The hypothesis is that neighborhoods with lower population density and fewer bicycle shops may have higher theft rates due to increased anonymity for thieves and a lack of nearby bike resources.
-
-### Data Overview
-
-The analysis uses the following datasets:
-
-1. Bicycle Thefts Dataset: Incident reports of stolen bicycles, including the location, timing, and details about the bikes (make, model, value).
-2. Bicycle Shops Dataset: Information about registered bicycle shops and repair shops across Toronto.
-3. Neighbourhood Profiles Dataset: Socio-economic data for 158 neighborhoods in Toronto, covering demographics, income levels, and housing types.
-
-
-The final analysis was performed using R packages tools such as `tidyverse`, `sf`, and `ggplot2` for data visualization and spatial analysis.
 
 ## Dataset Acquisition
 
