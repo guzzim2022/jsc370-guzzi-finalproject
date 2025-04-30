@@ -35,6 +35,12 @@ This project investigates how socio-economic indicators and the presence of bicy
 
 The hypothesis is that neighborhoods with lower population density and fewer bicycle shops may have higher theft rates due to increased anonymity for thieves and a lack of nearby bike resources.
 
+### Summary
+
+Using R for data acquisition, cleaning, visualization, and modeling, the project employs logistic regression, generalized additive models (GAM), and random forests to predict high-theft neighborhoods and identify key predictors. Results show that population density, commuting behavior, and household composition are strong indicators of theft risk, while proximity to bike shops has only weak correlation with thefts.
+
+Key findings highlight the need for targeted theft prevention strategies in dense urban areas, improved bike parking near transit hubs, and data-informed public safety planning. The project demonstrates the value of open data and spatial modeling in addressing urban safety issues.
+
 ### Data Overview
 
 The analysis uses the following datasets:
